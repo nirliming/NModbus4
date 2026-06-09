@@ -1,4 +1,4 @@
-namespace Modbus.Message
+﻿namespace Modbus.Message
 {
     using System.Diagnostics.CodeAnalysis;
 
@@ -25,6 +25,7 @@ namespace Modbus.Message
 
         /// <summary>
         ///     Composition of the function code and message data.
+        ///     构建PDU字节流
         /// </summary>
         [SuppressMessage("Microsoft.Performance", "CA1819:PropertiesShouldNotReturnArrays")]
         byte[] ProtocolDataUnit { get; }
