@@ -1,4 +1,4 @@
-namespace Modbus.IO
+﻿namespace Modbus.IO
 {
     using System;
     using System.IO;
@@ -9,7 +9,7 @@ namespace Modbus.IO
     using Message;
     using Utility;
 
-    /// <summary>
+    /// <summary> 
     ///     Refined Abstraction - http://en.wikipedia.org/wiki/Bridge_Pattern
     /// </summary>
     internal class ModbusRtuTransport : ModbusSerialTransport
